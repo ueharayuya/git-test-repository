@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>HTML&CSS 実践</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/reset.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#service">SERVICE</a></li>
+        <li><a href="#news">NEWS</a></li>
+        <li><a href="#price">PRICE</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="top">
+      <div class="top_wrap">
+        <h1>WithCode PetShop</h1>
+      </div>
+    </section>
+
+    <section id="service">
+      <h2 class="section_title">SERVICE</h2>
+      <div class="service_wrap">
+        <div class="service_left">
+          <img src="img/usagi.jpg" alt="サービス画像">
+        </div>
+        <div class="service_right">
+          <h3>トリミングのご案内</h3>
+          <p>プロのトリマーがシャンプー＆カット。<br>
+          爪切り、耳そうじなど、細やかなケアもしっかりと行います。</p>
+          <hr>
+          <h4>シャンプーコース</h4>
+          <p>
+            シャンプー、ブロー、爪切り、足裏まわりのカット、<br>
+            肛門腺しぼり、耳そうじ
+          </p><br>
+          <h4>セットコース</h4>
+          <P>
+            シャンプーコースの内容（シャンプー、ブロー、爪<br>
+            切り、足まわりのカット、肛門腺しぼり、耳そうじ）<br>
+            ＋全身のカットが入ります。
+          </P>
+          
+        </div>
+      </div>
+    </section>
+
+    <section id="news">
+      <h2 class="section_title">NEWS</h2>
+      <div class="news_wrap">
+        <p>2021/2/13 インターン研修生募集</p>
+        <p>2021/12/13　年末年始の店舗休業案内</p>
+        <p>2020/8/23　トリミング写真</p>
+      </div>
+    </section>
+
+    <section id="price">
+      <h2 class="section_title">PRICE</h2>
+      <div class="price_wrap">
+        <table>
+          <tr>
+            <th>-</th>
+            <th>シャンプーコース</th>
+            <th>セットコース</th>
+          </tr>
+          <tr>
+            <td>基本料金</td>
+            <td>3000円</td>
+            <td>5000円</td>
+          </tr>
+          <tr>
+            <td>オプション料金</td>
+            <td>1000円</td>
+            <td>1500円</td>
+          </tr>
+        </table>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2 class="section_title">
+        Contact
+      </h2>
+      <form class="form" method="post">
+        <div>
+          <label for="name">Name</label>
+          <input type="text" id="name" name="user_name">
+        </div>
+        <div>
+          <label for="mail">E-mail</label>
+          <input type="email" id="mail" name="user_mail">
+        </div> 
+        <div>
+          <label for="tel">Tell:</label>
+          <input type="tel" id="tel" name="user_tel">
+        </div>
+        <div>
+          <label for="msg">Message</label>
+          <textarea id="msg" name="user_message"></textarea>
+        </div>
+        <div class="button_submit">
+          <button class="button" type="submit">送信</button>
+        </div>
+      </form>  
+    </section>
+
+  </main>
+
+  <footer id="footer">
+    <div>
+      <small>© 2021 WithCode All rights reserved.</small>
+    </div>
+  </footer>
+</body>
+</html>
